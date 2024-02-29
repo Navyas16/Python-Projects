@@ -1,9 +1,13 @@
+#importing random module
 import random
+
 name = input("Your name: ")
 print("Hello " + name)
+
 lower_limit = int(input("Enter ur lower limit:"))
 upper_limit = int(input("Enter ur upper limit:"))
 
+#Generating random number using random.randint function
 number = random.randint(lower_limit,upper_limit)
 
 chances = 7
